@@ -1,0 +1,11 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.hero_section{
+    background-image: linear-gradient(180deg, rgba(43, 45, 66, 0.72), rgba(43, 45, 66, 0.72)),url('https://assets.website-files.com/5f575c459aee4271bffb5722/5f5b9086b196a6f2fb0e1128_section-image-2.jpg');
+    padding: 6em 2em 6em;
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    text-align: center;
+}
