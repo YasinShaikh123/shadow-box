@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Layout>
         <Routes>
-          <Route path="/shadow-box" element={<Home />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </Layout>
     </Router>
