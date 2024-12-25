@@ -1,6 +1,16 @@
-body {
-    font-family: 'Open Sans', sans-serif;
+
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('assets/fonts/helvetica/Helvetica.ttf') format('truetype'); /* Fixed the path for consistency */
+    font-weight: normal;
+    font-style: normal;
 }
+
+body {
+    font-family: 'CustomFont', sans-serif !important; /* Added a fallback font */
+}
+
 .hero_section{
     background-image: linear-gradient(180deg, rgba(43, 45, 66, 0.72), rgba(43, 45, 66, 0.72)),url('https://assets.website-files.com/5f575c459aee4271bffb5722/5f5b9086b196a6f2fb0e1128_section-image-2.jpg');
     padding: 6em 2em 6em;
@@ -8,4 +18,11 @@ body {
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
     text-align: center;
+}
+.testimonial .slick-dots li.slick-active button:before {
+    color: #262737;
+}
+.testimonial .slick-dots li button:before {
+    color: #26273775;
+    font-size: 12px;
 }
