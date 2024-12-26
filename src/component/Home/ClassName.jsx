@@ -20,6 +20,7 @@ const ClassName = () => {
   return (
     <>
       <Box
+      backgroundAttachment={'fixed'}
         pt={"5rem"}
         sx={{
           backgroundImage: `linear-gradient(180deg, rgba(43, 45, 66, 0.72), rgba(43, 45, 66, 0.72)),url(${classmate})`,
